@@ -1,0 +1,15 @@
+server:
+  port: 8089
+  servlet:
+    path: /
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: a
+mybatis:
+  type-aliases-package: com.java.entity
+
+
